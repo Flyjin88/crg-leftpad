@@ -1,0 +1,5 @@
+const leftpad = require('leftpad')
+leftpad('foo', 5)
+leftpad('foobar', 6)
+leftpad(1, 2, '0')
+leftpad(17, 5, 0)
